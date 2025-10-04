@@ -4,6 +4,7 @@ metadata:
   name: nginx
   labels:
     app.kubernetes.io/name: nginx
+    app.kubernetes.io/name1: nginx
 spec:
   containers:
   - name: myapp
